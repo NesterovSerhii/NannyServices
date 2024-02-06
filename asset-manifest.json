@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/NannyServices/static/css/main.7acaea2f.css",
-    "main.js": "/NannyServices/static/js/main.07d3183d.js",
+    "main.css": "/NannyServices/static/css/main.be8a0cd7.css",
+    "main.js": "/NannyServices/static/js/main.b8812e3b.js",
     "index.html": "/NannyServices/index.html",
-    "main.7acaea2f.css.map": "/NannyServices/static/css/main.7acaea2f.css.map",
-    "main.07d3183d.js.map": "/NannyServices/static/js/main.07d3183d.js.map"
+    "main.be8a0cd7.css.map": "/NannyServices/static/css/main.be8a0cd7.css.map",
+    "main.b8812e3b.js.map": "/NannyServices/static/js/main.b8812e3b.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.07d3183d.js"
+    "static/css/main.be8a0cd7.css",
+    "static/js/main.b8812e3b.js"
   ]
 }
