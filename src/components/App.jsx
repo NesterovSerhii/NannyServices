@@ -1,16 +1,9 @@
+import Header from './Header/';
+import css from './App.styled.module.css'
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
+    <div className={css.container}>
+      <Header/>
     </div>
   );
 };
