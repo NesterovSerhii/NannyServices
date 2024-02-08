@@ -1,0 +1,17 @@
+.container {
+    width: 1376px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 32px;
+    color: #fbfbfb;
+}
+
+.backgroundContainer {
+    flex-grow: 1;
+    background: url('../assets/images/hero_1x.jpeg'); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top right;
+    ;
+  }
