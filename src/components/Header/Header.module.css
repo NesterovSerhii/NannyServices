@@ -1,7 +1,6 @@
 .header-container {
     padding: 30px 96px 30px 96px;
     border-radius: 30px 30px 0 0;
-    /* background-color: #103931; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -14,19 +13,20 @@
 }
 
 .logo {
-font-family: Helvetica Neue;
-font-size: 24px;
-font-weight: 500;
-line-height: 28px;
-letter-spacing: -2%;
-text-align: left;
+    font-family: Helvetica Neue;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -2%;
+    text-align: left;
 }
 
 .nav {
-display: flex;
-align-items: center;
-gap: 92px;
+    display: flex;
+    align-items: center;
+    gap: 92px;
 }
+
 .header-nav-links {
     display: flex;
     gap: 40px;
@@ -36,9 +36,10 @@ gap: 92px;
     font-size: 16px;
     font-weight: 400;
     line-height: 20px;
-    letter-spacing: -1%;
+    /* letter-spacing: -1%; */
     text-align: left;   
 }
+
 .header-buttons{
     list-style: none;
     margin: 0;
@@ -46,14 +47,14 @@ gap: 92px;
     display: flex;
     gap: 8px;
 }
+
 .header-login-button {
     color: #fbfbfb;
     font-family: Helvetica Neue;
     font-size: 16px;
     font-weight: 500;
     line-height: 20px;
-    letter-spacing: -1%;
-    text-align: left;
+    /* letter-spacing: -1%; */
     width: 124px;
     padding: 14px 39px;
     box-sizing: border-box;
@@ -61,17 +62,16 @@ gap: 92px;
     border-radius: 30px;
     background-color: transparent;
 }
+
 .header-reg-button {
     font-family: Helvetica Neue; 
     color: #fbfbfb; 
     font-size: 16px;
     font-weight: 500;
     line-height: 20px;
-    letter-spacing: -1%;
+    /* letter-spacing: -1%; */
     padding: 14px 40px;
     border: none;
-    outline: 1px solid red;
     border-radius: 30px;
-
-    background-color: rgb(16, 57, 49);
+    background-color: #103931;
 }

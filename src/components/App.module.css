@@ -8,10 +8,11 @@
 
 .backgroundContainer {
     flex-grow: 1;
-    background: url('../assets/images/hero_1x.jpeg'); 
-    background-position: center;
+    background: url('../assets/images/hero_1x.jpeg'), #103931; 
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top right;
-    ;
+    background-size: contain;
+    background-position: center right;
+    height: 736px;
+    border-radius: 30px;
+    position: relative;
   }

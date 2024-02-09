@@ -13,10 +13,10 @@ const Header = () => {
             </div>
             <ul className={css['header-buttons']}>
                <li>
-                <button type='button' className={css['header-login-button']}>Log in</button>
+                <a href="/" className={css['header-login-button']}>Log in</a>
                 </li>
                <li>
-                <button type='button' className={css['header-reg-button']}>Registration</button>
+                <a href="/" className={css['header-reg-button']}>Registration</a>
                 </li>
             </ul>
         </nav>
