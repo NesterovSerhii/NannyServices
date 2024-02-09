@@ -13,11 +13,10 @@
 }
 
 .logo {
-    font-family: Helvetica Neue;
     font-size: 24px;
     font-weight: 500;
     line-height: 28px;
-    letter-spacing: -2%;
+    /* letter-spacing: -2%; */
     text-align: left;
 }
 
@@ -32,9 +31,7 @@
     gap: 40px;
 
     color: #fbfbfb;
-    font-family: Helvetica Neue;
     font-size: 16px;
-    font-weight: 400;
     line-height: 20px;
     /* letter-spacing: -1%; */
     text-align: left;   
@@ -50,7 +47,6 @@
 
 .header-login-button {
     color: #fbfbfb;
-    font-family: Helvetica Neue;
     font-size: 16px;
     font-weight: 500;
     line-height: 20px;
@@ -64,7 +60,6 @@
 }
 
 .header-reg-button {
-    font-family: Helvetica Neue; 
     color: #fbfbfb; 
     font-size: 16px;
     font-weight: 500;

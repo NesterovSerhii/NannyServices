@@ -9,7 +9,6 @@
     width: 517px;
 }
 .hero-title {
-    font-family: Helvetica Neue;
     font-size: 70px;
     font-weight: 500;
     line-height: 70px;
@@ -18,9 +17,7 @@
     margin-bottom: 28px;    
 }
 .hero-text {
-    font-family: Helvetica Neue;
     font-size: 28px;
-    font-weight: 400;
     line-height: 30px;
     /* letter-spacing: -2%; */
     margin: 0;
@@ -31,7 +28,6 @@
     align-items: center;
 
     color: #fbfbfb;
-    font-family: Helvetica Neue;
     font-size: 20px;
     font-weight: 500;
     line-height: 24px;
@@ -72,7 +68,6 @@
     border-radius: 20px;
     padding: 32px;
 
-    font-family: Helvetica Neue;
     font-size: 16px;
     line-height: 19px;
 
@@ -111,16 +106,13 @@
   .add-info-text {
     margin: 0;
     color: #11101c80;
-    font-family: Helvetica Neue;
     font-size: 16px;
-    font-weight: 400;
     line-height: 19px;
   }
 
   .add-info-amount {
     margin: 0;
     color: #11101c;
-    font-family: Helvetica Neue;
     font-size: 24px;
     font-weight: 700;
     line-height: 29px;
