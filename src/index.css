@@ -10,8 +10,8 @@ body {
 @font-face {
   font-family: 'Helvetica Neue';
   src: url('./assets/fonts/HelveticaNeueCyr-Roman.ttf') format('truetype'),
-  url('./assets/fonts/HelveticaNeueCyr-Medium.ttf') format('truetype'),
-  url('./assets/fonts/HelveticaNeueCyr-Bold.ttf') format('truetype');
+    url('./assets/fonts/HelveticaNeueCyr-Medium.ttf') format('truetype'),
+    url('./assets/fonts/HelveticaNeueCyr-Bold.ttf') format('truetype');
 }
 
 code {

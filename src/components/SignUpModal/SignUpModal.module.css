@@ -1,31 +1,85 @@
 .modalOverlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: #00000099;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .modal {
-    background: white;
-    color: black;
-    padding: 20px;
-    border-radius: 8px;
-    width: 400px;
-    max-width: 80%;
-    box-shadow: 0px 0px 10px #0000001a;
-    position: relative;
-  }
-  
-  .closeButton {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    cursor: pointer;
-    font-size: 20px;
-    color: #333;
-  }
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: hsla(0, 0%, 0%, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  background: #fbfbfb;
+  color: black;
+  padding: 64px;
+  border-radius: 30px;
+  width: 566px;
+  max-width: 80%;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.closeButton {
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  top: 28px;
+  right: 28px;
+  cursor: pointer;
+  font-size: 20px;
+  color: #333;
+}
+
+.formTitle {
+  color: #11101c;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 48px;
+  margin: 0;
+  margin-bottom: 20px;
+  /* letter-spacing: -2%; */
+}
+
+.formText {
+  color: rgba(17, 16, 28, 0.5);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+.formInput {
+  box-sizing: border-box;
+  border: 1px solid rgba(17, 16, 28, 0.1);
+  border-radius: 12px;
+  width: 438px;
+  padding: 16px 0 16px 18px;
+  margin-bottom: 18px;
+}
+
+.formInput::placeholder {
+  color: rgb(17, 16, 28);
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.formBtn {
+  width: 438px;
+  border-radius: 30px;
+  border: none;
+  background-color: rgb(16, 57, 49);
+  padding-top: 19px;
+  padding-bottom: 19px;
+  margin-top: 22px;
+
+  color: rgb(251, 251, 251);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  cursor: pointer;
+}
