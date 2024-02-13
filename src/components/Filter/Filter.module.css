@@ -1,0 +1,8 @@
+.select {
+  display: block;
+  background-color: #103931;
+  color: rgb(251, 251, 251);
+  width: 226px;
+  padding: 16px 0 16px 18px;
+  border-radius: 14px;
+}

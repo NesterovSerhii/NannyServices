@@ -1,6 +1,10 @@
 import React from 'react'
 import css from './Header.module.css'
-const Header = ({ onOpenSignUpModal, onOpenSignInModal }) => {
+
+
+
+const Header = ({ onOpenSignUpModal, onOpenSignInModal, backgroundColor }) => {
+  
     const handleSignInClick = (e) => {
         e.preventDefault();
         onOpenSignInModal();
@@ -12,7 +16,7 @@ const Header = ({ onOpenSignUpModal, onOpenSignInModal }) => {
       };
 
   return (
-    <header className={css['header-container']}>
+    <header className={css['header-container']}  style={{ backgroundColor }}>
         <div>
             <a href="/" className={css.logo}>Nanny.Services</a>
         </div>
