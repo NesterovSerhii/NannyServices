@@ -1,9 +1,10 @@
 import React from 'react'
 import NanniesCard from 'components/NanniesCard/NanniesCard'
+import css from './NanniesList.module.css'
 
 const NanniesList = () => {
   return (
-   <ul>
+   <ul className={css.nanniesList}>
     <NanniesCard/>
    </ul>
   )

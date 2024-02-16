@@ -1,0 +1,163 @@
+.cardWrap {
+    width: 1184px;
+    padding: 24px;
+    display: flex;
+    gap: 24px;
+    background-color: #FBFBFB;
+    border-radius: 24px;
+}
+
+.cardImgWrap {
+    box-sizing: border-box;
+    width: 120px;
+    height: 120px;
+    border: 2px solid rgba(16, 57, 49, 0.2);
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    position: relative;
+}
+.profileImg {
+    width: 96px; 
+    height: 96px;
+    border-radius: 15px;
+}
+
+.onlineIcon {
+    position: absolute;
+    top: 9px;
+    right: 14px;
+}
+
+.upperPartCard {
+   display: flex;
+   align-items: flex-start;
+   justify-content:space-between;
+}
+.addInfo {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #8a8a89;
+
+    margin-bottom: 27px;
+}
+.addInfo p {
+    margin: 0;
+}
+.name {
+    font-weight: 500;
+    font-size: 24px;
+    color: #11101c;
+    margin: 0;
+}
+.ratings {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    list-style: none;
+}
+
+.ratingsEl {
+    display: flex;
+    gap: 4px;
+}
+
+.ratingsElText {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #11101c;
+}
+
+.locationIcon,
+.starIcon {
+    display: flex;
+    align-items: center;
+}
+.message {
+    font-size: 16px;
+    line-height: 1.25;
+    color: rgba(17, 16, 28, 0.5);
+}
+
+.priceAccent {
+    color: #38cd3e;
+}
+
+.ratingsEl::before {
+    content: '';
+    display: block;
+    height: 16px;
+    width: 1px;
+    background-color: rgba(17, 16, 28, 0.2);
+    margin: 0 16px; 
+  }
+  
+  .ratingsEl:first-child::before {
+    content: none; 
+  }
+  
+  .ratingsEl:last-child::after {
+    content: none; 
+  } 
+
+.ratings p {
+    margin: 0;
+}
+
+.heartBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 24px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-left: 50px;
+    padding: 0;
+}
+
+.favorite {
+    fill: #0957c3; 
+  }
+
+.params {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    list-style: none;
+    margin-bottom: 24px;
+    padding: 0;
+
+}
+.paramsEl {
+    border-radius: 24px;
+    padding: 8px 16px;
+    background-color: #f3f3f3;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #8a8a89;
+}
+.paramsAccent {
+    color: #11101c;
+}
+.paramsAccentAge {
+    color: #11101c;
+    text-decoration: underline;
+}
+.readMoreBtn {
+    background-color: transparent;
+    border: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    padding: 0;
+    text-decoration: underline;
+    color: #11101c;
+    cursor: pointer;
+}
