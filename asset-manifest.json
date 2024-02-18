@@ -1,11 +1,10 @@
 {
   "files": {
     "main.css": "/NannyServices/static/css/main.cba70120.css",
-    "main.js": "/NannyServices/static/js/main.0fde7461.js",
+    "main.js": "/NannyServices/static/js/main.0711cd9c.js",
     "static/media/HelveticaNeueCyr-Roman.ttf": "/NannyServices/static/media/HelveticaNeueCyr-Roman.0ca719c710b1fbd7e02f.ttf",
     "static/media/HelveticaNeueCyr-Medium.ttf": "/NannyServices/static/media/HelveticaNeueCyr-Medium.bfdbae3c80f7aa49c618.ttf",
     "static/media/HelveticaNeueCyr-Bold.ttf": "/NannyServices/static/media/HelveticaNeueCyr-Bold.613e930355ab0b59fc48.ttf",
-    "static/media/profileImg_2x.jpeg": "/NannyServices/static/media/profileImg_2x.ea3218d95d4e89e0f89a.jpeg",
     "index.html": "/NannyServices/index.html",
     "static/media/heartFilled.svg": "/NannyServices/static/media/heartFilled.a40854b37f9dfd89a313f25f477bff5d.svg",
     "static/media/heart.svg": "/NannyServices/static/media/heart.79c0771c7cfe81f27cf67aaea1c26036.svg",
@@ -13,10 +12,10 @@
     "static/media/star.svg": "/NannyServices/static/media/star.955ab93e9a8ce5b79372cf452007d7ce.svg",
     "static/media/isOnline.svg": "/NannyServices/static/media/isOnline.1e9fa68a4cb1d8b58b9b93d5a25d29f5.svg",
     "main.cba70120.css.map": "/NannyServices/static/css/main.cba70120.css.map",
-    "main.0fde7461.js.map": "/NannyServices/static/js/main.0fde7461.js.map"
+    "main.0711cd9c.js.map": "/NannyServices/static/js/main.0711cd9c.js.map"
   },
   "entrypoints": [
     "static/css/main.cba70120.css",
-    "static/js/main.0fde7461.js"
+    "static/js/main.0711cd9c.js"
   ]
 }
