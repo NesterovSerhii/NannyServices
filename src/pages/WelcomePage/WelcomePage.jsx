@@ -5,9 +5,9 @@ import checkIcon from '../../assets/icons/check.svg';
 import Header from 'components/Header';
 import SignInModal from '../../components/SignInModal/SignInModal';
 import SignUpModal from '../../components/SignUpModal/SignUpModal';
+import { AuthProvider } from '../../firebase/auth';
 
 const WelcomePage = () => {
-
   const [isSignUpModalOpen, setSignUpModalOpen] = useState(false);
   const [isSignInModalOpen, setSignInOpen] = useState(false);
 
@@ -45,6 +45,8 @@ const WelcomePage = () => {
           </div>
         </section>
       </div>
+      <AuthProvider />
+
       {isSignUpModalOpen && <SignUpModal onClose={closeSignUpModal} />}
       {isSignInModalOpen && <SignInModal onClose={closeSignInModal} />}
     </div>

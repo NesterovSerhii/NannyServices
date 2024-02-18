@@ -5,6 +5,7 @@ import css from './SignUpModal.module.css';
 import closeBtnIcon from '../../assets/icons/closeBtn.svg'
 import eyeClosedIcon from '../../assets/icons/eye-off.svg';
 import eyeIcon from '../../assets/icons/eye.svg';
+import { getAuth, createUserWithEmailAndPassword } from 'firebase/auth';
 
 const passwordRegExp =/^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{8,32}$/;
 
@@ -26,6 +27,7 @@ export const basicSchema = Yup.object().shape({
 
 const SignUpModal = ({ onClose }) => {
   const [showPassword, setShowPassword] = useState(false);
+  const auth = getAuth();
 
    const formik = useFormik({
      initialValues: {
@@ -34,10 +36,18 @@ const SignUpModal = ({ onClose }) => {
        password: '',
      },
       validationSchema: basicSchema,
-     onSubmit: values => {
-       alert(JSON.stringify(values, null, 2));
-     },
-   });
+     onSubmit: async (values) => {
+      try {
+        
+        const userCredential = await createUserWithEmailAndPassword(auth, values.email, values.password);
+        const user = userCredential.user;
+        console.log('Successfully registered user:', user);
+        onClose(); 
+      } catch (error) {
+        console.error('Error registering user:', error.message);
+      }
+    },
+  });
 
   useEffect(() => {
     const handleEscape = (event) => {
