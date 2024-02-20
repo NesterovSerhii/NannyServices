@@ -1,4 +1,24 @@
 .nanniesList {
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.loadMoreBtn {
+    display: block;
+    background-color: rgb(16, 57, 49);
+    border: none;
+    border-radius: 30px;
+    height: 48px;
+    padding: 0 40px;
+    cursor: pointer;
+
+    color: rgb(251, 251, 251);
+    font-weight: 500;
+    line-height: 20px;
+    /* letter-spacing: -1%; */
+
+    margin: 64px auto 0 auto;
 }
