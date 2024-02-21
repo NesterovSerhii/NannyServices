@@ -23,6 +23,7 @@ const Header = ({ onOpenSignUpModal, onOpenSignInModal, backgroundColor }) => {
         <div className={css['header-nav-links']}>
           <Link to="/">Home</Link>
           <Link to="/nannies">Nannies</Link>
+          <Link to="/favorites">Favorites</Link>
         </div>
         <ul className={css['header-buttons']}>
           <li>

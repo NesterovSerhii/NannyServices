@@ -1,16 +1,16 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import WelcomePage from 'pages/WelcomePage/WelcomePage';
 import NanniesPage from './pages/NanniesPage/NanniesPage';
+import FavoritesPage from './pages/FavoritesPage/FavoritesPage';
 
 export const App = () => {
   return (
-    <Router>
+    <Router basename="/nanny-services">
       <Routes>
-        <Route path="/home" element={<WelcomePage />} />
+        <Route path="/" element={<WelcomePage />} />
         <Route path="/nannies" element={<NanniesPage />} />
-        {/* <Route path="/favorites" element={<FavoritesPage />} /> */}
-        <Route path="/" element={<Navigate to="/home" />} />
+        <Route path="/favorites" element={<FavoritesPage />} />
       </Routes>
     </Router>
   );
