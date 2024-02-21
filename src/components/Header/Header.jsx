@@ -15,22 +15,22 @@ const Header = ({ onOpenSignUpModal, onOpenSignInModal, backgroundColor }) => {
       };
 
   return (
-    <header className={css['header-container']} style={{ backgroundColor }}>
+    <header className={css.headerContainer} style={{ backgroundColor }}>
       <div>
         <Link to="/" className={css.logo}>Nanny.Services</Link>
       </div>
       <nav className={css.nav}>
-        <div className={css['header-nav-links']}>
+        <div className={css.headerNavLinks}>
           <Link to="/">Home</Link>
           <Link to="/nannies">Nannies</Link>
           <Link to="/favorites">Favorites</Link>
         </div>
-        <ul className={css['header-buttons']}>
+        <ul className={css.headerButtons}>
           <li>
-            <a href="/" onClick={handleSignInClick} className={css['header-login-button']}>Log in</a>
+            <a href="/" onClick={handleSignInClick} className={css.headerLoginBtn}>Log in</a>
           </li>
           <li>
-            <a href="/" onClick={handleSignUpClick} className={css['header-reg-button']}>Registration</a>
+            <a href="/" onClick={handleSignUpClick} className={css.headerRegBtn}>Registration</a>
           </li>
         </ul>
       </nav>

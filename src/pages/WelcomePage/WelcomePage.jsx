@@ -21,26 +21,26 @@ const WelcomePage = () => {
     <div className={css.container}>
       <div className={css.backgroundContainer}>
         <Header onOpenSignUpModal={openSignUpModal} onOpenSignInModal={openSignInModal} />
-        <section className={css['hero-section']}>
-          <div className={css['hero-title-wrap']}>
-            <h1 className={css['hero-title']}>Make Life Easier for the Family:</h1>
-            <p className={css['hero-text']}>Find Babysitters Online for All Occasions</p>
-            <a href="/" className={css['hero-btn']}>
+        <section className={css.heroSection}>
+          <div className={css.heroTitleWrap}>
+            <h1 className={css.heroTitle}>Make Life Easier for the Family:</h1>
+            <p className={css.heroText}>Find Babysitters Online for All Occasions</p>
+            <a href="/" className={css.heroBtn}>
               Get started
-              <svg className={css['arrow-icon']}>
+              <svg className={css.arrowIcon}>
                 <use xlinkHref={arrowIcon + '#arrow'} />
               </svg>
             </a>
           </div>
-          <div className={css['hero-section-add-info']}>
-            <div className={css['check-wrap']}>
-              <svg className={css['check-icon']}>
+          <div className={css.heroSectionAddInfo}>
+            <div className={css.checkWrap}>
+              <svg className={css.checkIcon}>
                 <use xlinkHref={checkIcon + '#feCheck2'} />
               </svg>
             </div>
-            <div className={css['add-info-text-wrap']}>
-              <p className={css['add-info-text']}>Experienced nannies</p>
-              <p className={css['add-info-amount']}>15,000</p>
+            <div className={css.addInfoTextWrap}>
+              <p className={css.addInfoText}>Experienced nannies</p>
+              <p className={css.addInfoAmount}>15,000</p>
             </div>
           </div>
         </section>
