@@ -5,12 +5,18 @@ import heartFilledIcon from '../../assets/icons/heartFilled.svg'
 import locationIcon from '../../assets/icons/location.svg';
 import starIcon from '../../assets/icons/star.svg';
 import onlineIcon from '../../assets/icons/isOnline.svg';
+import profileIcon from '../../assets/icons/profileIcon.svg'
 
 
-const NanniesCard = ({ index, nanny }) => {
+const NanniesCard = ({ nanny }) => {
 
   const [isFavorite, setIsFavorite] = useState(false);
   const [ageInYears, setAgeInYears] = useState(0);
+  const [isExpanded, setIsExpanded] = useState(false);
+
+  const handleReadMoreClick = () => {
+    setIsExpanded(true);
+  };
 
   const handleHeartClick = () => {
     setIsFavorite((prevIsFavorite) => !prevIsFavorite);
@@ -70,10 +76,30 @@ const NanniesCard = ({ index, nanny }) => {
           <li className={css.paramsEl}>Education: <span className={css.paramsAccent}>{nanny.education}</span></li>
           </ul>
           <p className={css.message}>{nanny.about}</p>
-          <button type='button' className={css.readMoreBtn}>Read more</button>
+          {isExpanded ? (
+          nanny.reviews.map((review, index) => (
+            <div className={css.userWrap} key={index}>
+              <div className={css.iconWrap}>
+                <svg>{profileIcon}</svg>
+              </div>
+              <div className={css.rating}>
+                <p className={css.reviewer}>{review.reviewer}</p>
+                <div className={css.starIcon}>
+                  <img src={starIcon} alt="Star Icon" />
+                </div>
+                <p className={css.ratingsElText}>{review.rating}</p>
+              </div>
+              <div className={css.comment}>{review.comment}</div>
+              </div>
+          ))
+        ) : (
+          <button type="button" className={css.readMoreBtn} onClick={handleReadMoreClick}>
+            Read more
+          </button>
+        )}
       </div>
     </li>
-  )
-}
+  );
+};
 
 export default NanniesCard
