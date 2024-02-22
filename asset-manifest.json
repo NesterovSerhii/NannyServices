@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/nanny-services/static/css/main.eb80c48b.css",
-    "main.js": "/nanny-services/static/js/main.1309f086.js",
-    "static/media/hero_1x.jpeg": "/nanny-services/static/media/hero_1x.e90463b4f568a957483c.jpeg",
-    "static/media/HelveticaNeueCyr-Roman.ttf": "/nanny-services/static/media/HelveticaNeueCyr-Roman.0ca719c710b1fbd7e02f.ttf",
-    "static/media/HelveticaNeueCyr-Medium.ttf": "/nanny-services/static/media/HelveticaNeueCyr-Medium.bfdbae3c80f7aa49c618.ttf",
-    "static/media/HelveticaNeueCyr-Bold.ttf": "/nanny-services/static/media/HelveticaNeueCyr-Bold.613e930355ab0b59fc48.ttf",
-    "static/media/eye-off.svg": "/nanny-services/static/media/eye-off.b1407f5a6448150d4c9fa02ab3da65c5.svg",
-    "static/media/eye.svg": "/nanny-services/static/media/eye.dfdc16b635b5c0445e21c272e68f0c74.svg",
-    "index.html": "/nanny-services/index.html",
-    "static/media/heartFilled.svg": "/nanny-services/static/media/heartFilled.a40854b37f9dfd89a313f25f477bff5d.svg",
-    "static/media/heart.svg": "/nanny-services/static/media/heart.79c0771c7cfe81f27cf67aaea1c26036.svg",
-    "static/media/location.svg": "/nanny-services/static/media/location.ffe62eb46b824793583b649ecf43f81c.svg",
-    "static/media/closeBtn.svg": "/nanny-services/static/media/closeBtn.d5fd4bf2eaef8bd1a66f5e566487f4df.svg",
-    "static/media/star.svg": "/nanny-services/static/media/star.955ab93e9a8ce5b79372cf452007d7ce.svg",
-    "static/media/arrow.svg": "/nanny-services/static/media/arrow.9ee93f33bc667a108d602deffb989fc7.svg",
-    "static/media/chevronDown.svg": "/nanny-services/static/media/chevronDown.81930bcec07d8ccdbfe657a7530d2e46.svg",
-    "static/media/check.svg": "/nanny-services/static/media/check.25b9cb1bef8869eafe85ac30998b20cf.svg",
-    "static/media/profileIcon.svg": "/nanny-services/static/media/profileIcon.39776401102212d1657878403ffa2721.svg",
-    "static/media/isOnline.svg": "/nanny-services/static/media/isOnline.1e9fa68a4cb1d8b58b9b93d5a25d29f5.svg",
-    "main.eb80c48b.css.map": "/nanny-services/static/css/main.eb80c48b.css.map",
-    "main.1309f086.js.map": "/nanny-services/static/js/main.1309f086.js.map"
+    "main.css": "/NannyServices/static/css/main.c415be1f.css",
+    "main.js": "/NannyServices/static/js/main.ed3e56a7.js",
+    "static/media/hero_1x.jpeg": "/NannyServices/static/media/hero_1x.e90463b4f568a957483c.jpeg",
+    "static/media/HelveticaNeueCyr-Roman.ttf": "/NannyServices/static/media/HelveticaNeueCyr-Roman.0ca719c710b1fbd7e02f.ttf",
+    "static/media/HelveticaNeueCyr-Medium.ttf": "/NannyServices/static/media/HelveticaNeueCyr-Medium.bfdbae3c80f7aa49c618.ttf",
+    "static/media/HelveticaNeueCyr-Bold.ttf": "/NannyServices/static/media/HelveticaNeueCyr-Bold.613e930355ab0b59fc48.ttf",
+    "static/media/eye-off.svg": "/NannyServices/static/media/eye-off.b1407f5a6448150d4c9fa02ab3da65c5.svg",
+    "static/media/eye.svg": "/NannyServices/static/media/eye.dfdc16b635b5c0445e21c272e68f0c74.svg",
+    "index.html": "/NannyServices/index.html",
+    "static/media/heartFilled.svg": "/NannyServices/static/media/heartFilled.a40854b37f9dfd89a313f25f477bff5d.svg",
+    "static/media/heart.svg": "/NannyServices/static/media/heart.79c0771c7cfe81f27cf67aaea1c26036.svg",
+    "static/media/location.svg": "/NannyServices/static/media/location.ffe62eb46b824793583b649ecf43f81c.svg",
+    "static/media/closeBtn.svg": "/NannyServices/static/media/closeBtn.d5fd4bf2eaef8bd1a66f5e566487f4df.svg",
+    "static/media/star.svg": "/NannyServices/static/media/star.955ab93e9a8ce5b79372cf452007d7ce.svg",
+    "static/media/arrow.svg": "/NannyServices/static/media/arrow.9ee93f33bc667a108d602deffb989fc7.svg",
+    "static/media/chevronDown.svg": "/NannyServices/static/media/chevronDown.81930bcec07d8ccdbfe657a7530d2e46.svg",
+    "static/media/check.svg": "/NannyServices/static/media/check.25b9cb1bef8869eafe85ac30998b20cf.svg",
+    "static/media/profileIcon.svg": "/NannyServices/static/media/profileIcon.39776401102212d1657878403ffa2721.svg",
+    "static/media/isOnline.svg": "/NannyServices/static/media/isOnline.1e9fa68a4cb1d8b58b9b93d5a25d29f5.svg",
+    "main.c415be1f.css.map": "/NannyServices/static/css/main.c415be1f.css.map",
+    "main.ed3e56a7.js.map": "/NannyServices/static/js/main.ed3e56a7.js.map"
   },
   "entrypoints": [
-    "static/css/main.eb80c48b.css",
-    "static/js/main.1309f086.js"
+    "static/css/main.c415be1f.css",
+    "static/js/main.ed3e56a7.js"
   ]
 }
