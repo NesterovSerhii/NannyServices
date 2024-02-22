@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/nanny-services/static/css/main.eb80c48b.css",
-    "main.js": "/nanny-services/static/js/main.1309f086.js",
-    "static/media/hero_1x.jpeg": "/nanny-services/static/media/hero_1x.e90463b4f568a957483c.jpeg",
-    "static/media/HelveticaNeueCyr-Roman.ttf": "/nanny-services/static/media/HelveticaNeueCyr-Roman.0ca719c710b1fbd7e02f.ttf",
-    "static/media/HelveticaNeueCyr-Medium.ttf": "/nanny-services/static/media/HelveticaNeueCyr-Medium.bfdbae3c80f7aa49c618.ttf",
-    "static/media/HelveticaNeueCyr-Bold.ttf": "/nanny-services/static/media/HelveticaNeueCyr-Bold.613e930355ab0b59fc48.ttf",
-    "static/media/eye-off.svg": "/nanny-services/static/media/eye-off.b1407f5a6448150d4c9fa02ab3da65c5.svg",
-    "static/media/eye.svg": "/nanny-services/static/media/eye.dfdc16b635b5c0445e21c272e68f0c74.svg",
-    "index.html": "/nanny-services/index.html",
-    "static/media/heartFilled.svg": "/nanny-services/static/media/heartFilled.a40854b37f9dfd89a313f25f477bff5d.svg",
-    "static/media/heart.svg": "/nanny-services/static/media/heart.79c0771c7cfe81f27cf67aaea1c26036.svg",
-    "static/media/location.svg": "/nanny-services/static/media/location.ffe62eb46b824793583b649ecf43f81c.svg",
-    "static/media/closeBtn.svg": "/nanny-services/static/media/closeBtn.d5fd4bf2eaef8bd1a66f5e566487f4df.svg",
-    "static/media/star.svg": "/nanny-services/static/media/star.955ab93e9a8ce5b79372cf452007d7ce.svg",
-    "static/media/arrow.svg": "/nanny-services/static/media/arrow.9ee93f33bc667a108d602deffb989fc7.svg",
-    "static/media/chevronDown.svg": "/nanny-services/static/media/chevronDown.81930bcec07d8ccdbfe657a7530d2e46.svg",
-    "static/media/check.svg": "/nanny-services/static/media/check.25b9cb1bef8869eafe85ac30998b20cf.svg",
-    "static/media/profileIcon.svg": "/nanny-services/static/media/profileIcon.39776401102212d1657878403ffa2721.svg",
-    "static/media/isOnline.svg": "/nanny-services/static/media/isOnline.1e9fa68a4cb1d8b58b9b93d5a25d29f5.svg",
-    "main.eb80c48b.css.map": "/nanny-services/static/css/main.eb80c48b.css.map",
-    "main.1309f086.js.map": "/nanny-services/static/js/main.1309f086.js.map"
+    "main.css": "https://NesterovSerhii.github.io/NannyServices/static/css/main.a55bb630.css",
+    "main.js": "https://NesterovSerhii.github.io/NannyServices/static/js/main.b240bd9d.js",
+    "static/media/hero_1x.jpeg": "https://NesterovSerhii.github.io/NannyServices/static/media/hero_1x.e90463b4f568a957483c.jpeg",
+    "static/media/HelveticaNeueCyr-Roman.ttf": "https://NesterovSerhii.github.io/NannyServices/static/media/HelveticaNeueCyr-Roman.0ca719c710b1fbd7e02f.ttf",
+    "static/media/HelveticaNeueCyr-Medium.ttf": "https://NesterovSerhii.github.io/NannyServices/static/media/HelveticaNeueCyr-Medium.bfdbae3c80f7aa49c618.ttf",
+    "static/media/HelveticaNeueCyr-Bold.ttf": "https://NesterovSerhii.github.io/NannyServices/static/media/HelveticaNeueCyr-Bold.613e930355ab0b59fc48.ttf",
+    "static/media/eye-off.svg": "https://NesterovSerhii.github.io/NannyServices/static/media/eye-off.b1407f5a6448150d4c9fa02ab3da65c5.svg",
+    "index.html": "https://NesterovSerhii.github.io/NannyServices/index.html",
+    "static/media/eye.svg": "https://NesterovSerhii.github.io/NannyServices/static/media/eye.dfdc16b635b5c0445e21c272e68f0c74.svg",
+    "static/media/heartFilled.svg": "https://NesterovSerhii.github.io/NannyServices/static/media/heartFilled.faa2936c87930271d0fe0dbb3a152bc4.svg",
+    "static/media/location.svg": "https://NesterovSerhii.github.io/NannyServices/static/media/location.a56bdfea39e38cbc9c23b2e2ee83ea4e.svg",
+    "static/media/heart.svg": "https://NesterovSerhii.github.io/NannyServices/static/media/heart.91a63304affcfd6d1ae605ca5f346eb8.svg",
+    "static/media/closeBtn.svg": "https://NesterovSerhii.github.io/NannyServices/static/media/closeBtn.d5fd4bf2eaef8bd1a66f5e566487f4df.svg",
+    "static/media/star.svg": "https://NesterovSerhii.github.io/NannyServices/static/media/star.41cba84b074abe1836c1cd4c20c9cf4a.svg",
+    "static/media/arrow.svg": "https://NesterovSerhii.github.io/NannyServices/static/media/arrow.fbae845de79d7ba49eec054b425c02e9.svg",
+    "static/media/chevronDown.svg": "https://NesterovSerhii.github.io/NannyServices/static/media/chevronDown.d0e00162e60901285cf3662b5ede7d6b.svg",
+    "static/media/check.svg": "https://NesterovSerhii.github.io/NannyServices/static/media/check.85c403e18d576335882c1154bafd298e.svg",
+    "static/media/profileIcon.svg": "https://NesterovSerhii.github.io/NannyServices/static/media/profileIcon.ec381c5409eb0f8c15d61409ced745ba.svg",
+    "static/media/isOnline.svg": "https://NesterovSerhii.github.io/NannyServices/static/media/isOnline.0bea91d3b03b9172eea1b60947c9264b.svg",
+    "main.a55bb630.css.map": "https://NesterovSerhii.github.io/NannyServices/static/css/main.a55bb630.css.map",
+    "main.b240bd9d.js.map": "https://NesterovSerhii.github.io/NannyServices/static/js/main.b240bd9d.js.map"
   },
   "entrypoints": [
-    "static/css/main.eb80c48b.css",
-    "static/js/main.1309f086.js"
+    "static/css/main.a55bb630.css",
+    "static/js/main.b240bd9d.js"
   ]
 }
