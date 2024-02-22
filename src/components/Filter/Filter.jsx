@@ -11,6 +11,7 @@ const Filter = () => {
     setOptionsVisible(false);
   };
 
+  
   const toggleOptions = () => {
     setOptionsVisible(!optionsVisible);
   };
