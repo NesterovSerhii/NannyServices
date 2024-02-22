@@ -1,21 +1,46 @@
-import React from 'react'
-import css from './Filter.module.css'
+import React, { useState } from 'react';
+import css from './Filter.module.css';
+import arrowDownIcon from '../../assets/icons/chevronDown.svg'
 
 const Filter = () => {
-    return (
-        <label>
-            Filter
-            <select className={css.select} >
-                    <option>A to Z</option>
-                    <option>Z to A</option>
-                    <option>Less than 10$</option>
-                    <option>Greater than 10$</option>
-                    <option>Popular</option>
-                    <option>Not popular</option>
-                    <option>Show all</option>
-            </select>
-        </label>
-    )
-}
+  const [selectedOption, setSelectedOption] = useState('A to Z');
+  const [optionsVisible, setOptionsVisible] = useState(false);
 
-export default Filter
+  const handleOptionChange = (option) => {
+    setSelectedOption(option);
+    setOptionsVisible(false);
+  };
+
+  const toggleOptions = () => {
+    setOptionsVisible(!optionsVisible);
+  };
+
+  return (
+    <div className={css.customSelect}>
+      <h2 className={css.title}>Filter</h2>
+        <div className={css.selectContainer}>
+          <div
+            onClick={toggleOptions}
+            className={`${css.select} ${optionsVisible ? css.expanded : ''}`}
+          >
+             {selectedOption} <img src={arrowDownIcon} alt="down-arrow" className={css.icon} />
+          </div>
+          {optionsVisible && (
+            <div className={css.customOptions}>
+              {['A to Z', 'Z to A', 'Less than 10$', 'Greater than 10$', 'Popular', 'Not popular', 'Show all'].map((option) => (
+                <div
+                  key={option}
+                  className={`${css.customOption} ${selectedOption === option ? css.selected : ''}`}
+                  onClick={() => handleOptionChange(option)}
+                >
+                  {option}
+                </div>
+              ))}
+            </div>
+          )}
+        </div>
+    </div>
+  );
+};
+
+export default Filter;
