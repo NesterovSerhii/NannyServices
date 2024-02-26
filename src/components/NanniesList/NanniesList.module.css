@@ -21,4 +21,11 @@
     /* letter-spacing: -1%; */
 
     margin: 64px auto 0 auto;
+    transition: 0.3s;
+}
+
+.loadMoreBtn:hover,
+.loadMoreBtn:focus {
+    color: rgb(16, 57, 49);
+    background-color: rgb(251, 251, 251);
 }

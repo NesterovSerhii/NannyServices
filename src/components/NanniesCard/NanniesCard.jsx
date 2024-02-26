@@ -5,7 +5,6 @@ import heartFilledIcon from '../../assets/icons/heartFilled.svg'
 import locationIcon from '../../assets/icons/location.svg';
 import starIcon from '../../assets/icons/star.svg';
 import onlineIcon from '../../assets/icons/isOnline.svg';
-import profileIcon from '../../assets/icons/profileIcon.svg'
 
 
 const NanniesCard = ({ nanny }) => {
@@ -30,6 +29,14 @@ const NanniesCard = ({ nanny }) => {
       setAgeInYears(ageInYears);
 
   }, [nanny]);
+
+  const getInitial = (name) => {
+    return name ? name[0].toUpperCase() : '';
+  };
+
+  const handleMakeAppointmentClick = () => {
+    console.log('Make an appointment clicked', nanny.name);
+  };
 
   return (
     <li className={css.cardWrap}>
@@ -76,27 +83,40 @@ const NanniesCard = ({ nanny }) => {
           <li className={css.paramsEl}>Education: <span className={css.paramsAccent}>{nanny.education}</span></li>
           </ul>
           <p className={css.message}>{nanny.about}</p>
-          {isExpanded ? (
-          nanny.reviews.map((review, index) => (
-            <div className={css.userWrap} key={index}>
+          {isExpanded && (
+            <>
+          {nanny.reviews.map((review, index) => (
+            <div className={css.commentWrap} key={index}>
+              <div className={css.userWrap}>
               <div className={css.iconWrap}>
-                <svg>{profileIcon}</svg>
+              <span className={css.userInit}>{getInitial(review.reviewer)}</span>
               </div>
               <div className={css.rating}>
                 <p className={css.reviewer}>{review.reviewer}</p>
                 <div className={css.starIcon}>
                   <img src={starIcon} alt="Star Icon" />
+                <p className={css.ratingsElText}>{Number.isInteger(review.rating) ? review.rating.toFixed(1) : review.rating}</p>
                 </div>
-                <p className={css.ratingsElText}>{review.rating}</p>
+              </div>
               </div>
               <div className={css.comment}>{review.comment}</div>
               </div>
-          ))
-        ) : (
-          <button type="button" className={css.readMoreBtn} onClick={handleReadMoreClick}>
-            Read more
-          </button>
-        )}
+                  ))}
+               <button
+               type="button"
+               className={css.cardBtn}
+               onClick={handleMakeAppointmentClick}
+             >
+               Make an appointment
+             </button>
+           </>
+         )}
+          {!isExpanded && (
+        <button type="button" className={css.readMoreBtn} onClick={handleReadMoreClick}>
+          Read more
+        </button>
+      )}
+        
       </div>
     </li>
   );

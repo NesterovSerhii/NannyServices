@@ -19,6 +19,7 @@
     padding: 12px;
     position: relative;
 }
+
 .profileImg {
     width: 96px; 
     height: 96px;
@@ -36,6 +37,7 @@
    align-items: flex-start;
    justify-content:space-between;
 }
+
 .addInfo {
     font-weight: 500;
     font-size: 16px;
@@ -44,15 +46,18 @@
 
     margin-bottom: 27px;
 }
+
 .addInfo p {
     margin: 0;
 }
+
 .name {
     font-weight: 500;
     font-size: 24px;
     color: #11101c;
     margin: 0;
 }
+
 .ratings {
     display: flex;
     align-items: center;
@@ -81,6 +86,7 @@
     font-size: 16px;
     line-height: 1.25;
     color: rgba(17, 16, 28, 0.5);
+    margin: 0;
 }
 
 .priceAccent {
@@ -131,8 +137,8 @@
     list-style: none;
     margin-bottom: 24px;
     padding: 0;
-
 }
+
 .paramsEl {
     border-radius: 24px;
     padding: 8px 16px;
@@ -143,13 +149,49 @@
     line-height: 1.5;
     color: #8a8a89;
 }
+
 .paramsAccent {
     color: #11101c;
 }
+
 .paramsAccentAge {
     color: #11101c;
     text-decoration: underline;
 }
+
+.commentWrap {
+    margin-top: 48px;
+}
+
+.userWrap {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 16px;  
+}
+
+.rating {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.reviewer {
+    color: rgb(17, 16, 28);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    margin: 0;
+}
+
+.rating .starIcon {
+    align-items: center;
+    gap: 8px;
+}
+
+.ratingsElText {
+    margin: 0;
+}
+
 .readMoreBtn {
     background-color: transparent;
     border: none;
@@ -160,4 +202,43 @@
     text-decoration: underline;
     color: #11101c;
     cursor: pointer;
+    transition: 0.3s;
+}
+
+.iconWrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 100px;
+    background-color: rgba(16, 57, 49, 0.2);
+}
+
+.userInit {
+    color: rgb(16, 57, 49);
+}
+
+.cardBtn {
+    box-sizing: border-box;
+    width: 215px;
+    padding: 14px 28px;
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(16, 57, 49);
+    color: rgb(251, 251, 251);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    /* letter-spacing: -1%; */
+    margin-top: 48px;
+
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.cardBtn:hover, 
+.cardBtn:focus {
+    color: rgb(16, 57, 49);
+    background-color: rgb(251, 251, 251);
 }
