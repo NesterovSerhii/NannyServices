@@ -5,7 +5,8 @@ import css from './SignInModal.module.css';
 import closeBtnIcon from '../../assets/icons/closeBtn.svg';
 import eyeClosedIcon from '../../assets/icons/eye-off.svg';
 import eyeIcon from '../../assets/icons/eye.svg';
-import { getAuth, signInWithEmailAndPassword } from 'firebase/auth';
+import { signInWithEmailAndPassword } from 'firebase/auth';
+import { useAuth } from '../../firebase/auth';
 
 const passwordRegExp = /^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{8,32}$/;
 
@@ -17,8 +18,9 @@ export const basicSchema = Yup.object().shape({
 });
 
 const SignInModal = ({ onClose }) => {
+
   const [showPassword, setShowPassword] = useState(false);
-  const auth = getAuth();
+const { auth } = useAuth();
   const modalRef = useRef(null);
 
   const formik = useFormik({
@@ -31,7 +33,7 @@ const SignInModal = ({ onClose }) => {
       try {
         const userCredential = await signInWithEmailAndPassword(auth, values.email, values.password);
         const user = userCredential.user;
-        console.log('Successfully signed in user:', user);
+        console.log('Successfully signed in user:', user.displayName);
         onClose();
       } catch (error) {
         console.error('Error signing in user:', error.message);

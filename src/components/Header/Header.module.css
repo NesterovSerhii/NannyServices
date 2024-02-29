@@ -60,7 +60,8 @@
   background-color: transparent;
 }
 
-.headerRegBtn {
+.headerRegBtn,
+.headerLogOutBtn {
   color: #fbfbfb;
   font-size: 16px;
   font-weight: 500;
@@ -70,4 +71,32 @@
   border: none;
   border-radius: 30px;
   background-color: #103931;
+}
+.btnsWrap {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.userInfo {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.userName {
+  color: rgb(251, 251, 251);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 20px;
+  /* letter-spacing: -1%; */
+}
+.userImgWrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+
+  background: rgb(251, 251, 251);
 }
