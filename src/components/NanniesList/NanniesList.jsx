@@ -5,7 +5,7 @@ import NanniesCard from 'components/NanniesCard/NanniesCard';
 import css from './NanniesList.module.css';
 import { getMoreNanniesData } from '../../firebase/nanniesService';
 
-const NanniesList = ({ initialLoad }) => {
+const NanniesList = ({ initialLoad, openMeetingModal }) => {
   const [nannies, setNannies] = useState([]);
   const [totalLoaded, setTotalLoaded] = useState(initialLoad);
   const [allNanniesLoaded, setAllNanniesLoaded] = useState(false);
@@ -37,7 +37,7 @@ const NanniesList = ({ initialLoad }) => {
     <div>
       <ul className={css.nanniesList}>
         {nannies.map((nanny, index) => (
-          <NanniesCard key={index} nanny={nanny} />
+          <NanniesCard key={index} nanny={nanny} openMeetingModal={openMeetingModal}/>
         ))}
       </ul>
       {!allNanniesLoaded && (

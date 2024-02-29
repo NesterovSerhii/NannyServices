@@ -24,8 +24,7 @@
     transition: 0.3s;
 }
 
-.loadMoreBtn:hover,
-.loadMoreBtn:focus {
+.loadMoreBtn:hover {
     color: rgb(16, 57, 49);
     background-color: rgb(251, 251, 251);
 }

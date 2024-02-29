@@ -7,7 +7,7 @@ import starIcon from '../../assets/icons/star.svg';
 import onlineIcon from '../../assets/icons/isOnline.svg';
 
 
-const NanniesCard = ({ nanny }) => {
+const NanniesCard = ({ nanny, openMeetingModal }) => {
 
   const [isFavorite, setIsFavorite] = useState(false);
   const [ageInYears, setAgeInYears] = useState(0);
@@ -21,6 +21,10 @@ const NanniesCard = ({ nanny }) => {
     setIsFavorite((prevIsFavorite) => !prevIsFavorite);
   };
 
+  const handleMakeAppointmentClick = () => {
+    openMeetingModal(nanny);
+  };
+
   useEffect(() => {
       const today = new Date();
       const birthday = new Date(nanny.birthday);
@@ -32,10 +36,6 @@ const NanniesCard = ({ nanny }) => {
 
   const getInitial = (name) => {
     return name ? name[0].toUpperCase() : '';
-  };
-
-  const handleMakeAppointmentClick = () => {
-    console.log('Make an appointment clicked', nanny.name);
   };
 
   return (

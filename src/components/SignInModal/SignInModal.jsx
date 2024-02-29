@@ -61,6 +61,13 @@ const SignInModal = ({ onClose }) => {
     };
   }, [onClose]);
 
+  useEffect(() => {
+    document.body.style.overflow = 'hidden';
+    return () => {
+      document.body.style.overflow = 'auto';
+    };
+  }, []);
+
   return (
     <div className={css.modalOverlay}>
       <div className={css.modal} ref={modalRef}>
