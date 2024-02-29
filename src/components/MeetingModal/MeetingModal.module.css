@@ -1,59 +1,59 @@
 .modalOverlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: hsla(0, 0%, 0%, 0.6);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .modal {
-    background: #fbfbfb;
-    color: black;
-    padding: 64px;
-    border-radius: 30px;
-    width: 566px;
-    max-width: 80%;
-    box-sizing: border-box;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    position: relative;
-  }
-  
-  .closeButton {
-    background-color: transparent;
-    border: none;
-    position: absolute;
-    top: 28px;
-    right: 28px;
-    cursor: pointer;
-    font-size: 20px;
-    color: #333;
-  }
-  
-  .formTitle {
-    color: #11101c;
-    font-size: 40px;
-    font-weight: 500;
-    line-height: 48px;
-    margin: 0;
-    margin-bottom: 20px;
-    /* letter-spacing: -2%; */
-  }
-  
-  .formText {
-    color: rgba(17, 16, 28, 0.5);
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 20px;
-  
-    margin: 0;
-    margin-bottom: 40px;
-  }
-  
-  /* .formInput {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: hsla(0, 0%, 0%, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  background: #fbfbfb;
+  color: black;
+  padding: 64px;
+  border-radius: 30px;
+  width: 600px;
+  max-width: 80%;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.closeButton {
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  font-size: 20px;
+  color: #333;
+}
+
+.modalTitle {
+  color: #11101c;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 48px;
+  margin: 0;
+  margin-bottom: 20px;
+  /* letter-spacing: -2%; */
+}
+
+.modalDesc {
+  color: rgba(17, 16, 28, 0.5);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+/* .formInput {
     box-sizing: border-box;
     border: 1px solid rgba(17, 16, 28, 0.1);
     border-radius: 12px;
@@ -109,34 +109,96 @@
     right: 17px;
     transform: translateY(-50%);
   } */
+.profileWrap {
+  display: flex;
+  gap: 14px;
+}
 
-  .cardImgWrap {
-    width: 44px;
-    height: 44px;
-  }
-  .profileImg {
+.cardImgWrap {
+  width: 44px;
+  height: 44px;
+}
+
+.profileImg {
   border-radius: 15px;
   width: 100%;
-  background:rgb(224, 224, 224);
-  }
+}
 
-  .addInfo {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #8a8a89;
+.addInfo {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #8a8a89;
 
-    margin-bottom: 27px;
+  margin-bottom: 27px;
 }
 
 .addInfo p {
-    margin: 0;
+  margin: 0;
 }
 
 .name {
-    font-weight: 500;
-    font-size: 24px;
-    color: #11101c;
-    margin: 0;
+  font-size: 16px;
+  font-weight: 500;
+  color: #11101c;
+  margin: 0;
 }
-  
+
+.nannyText {
+  font-size: 12px;
+  margin-bottom: 4px;
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px 8px;
+}
+.formInput {
+  font-size: 16px;
+  line-height: 20px;
+  padding: 16px 0 16px 18px;
+  box-sizing: border-box;
+  border: 1px solid rgba(17, 16, 28, 0.1);
+  border-radius: 12px;
+  width: 49%;
+  background-color: transparent;
+  color: #11101c;
+}
+
+.select {
+  width: 100%;
+  border: none;
+  background-color: transparent;
+  color: rgb(17, 16, 28);
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.formInput::placeholder {
+  color: rgb(17, 16, 28);
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.formBtn {
+  width: 472px;
+  padding: 16px 0;
+  border-radius: 30px;
+
+  background-color: #103931;
+  border: none;
+  cursor: pointer;
+
+  color: rgb(251, 251, 251);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  /* letter-spacing: -1%; */
+  transition: 0.3s;
+}
+
+.formBtn:hover {
+  background-color: rgb(251, 251, 251);
+  color: #103931;
+}
