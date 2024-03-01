@@ -53,65 +53,11 @@
   margin-bottom: 40px;
 }
 
-/* .formInput {
-    box-sizing: border-box;
-    border: 1px solid rgba(17, 16, 28, 0.1);
-    border-radius: 12px;
-    width: 438px;
-    padding: 16px 0 16px 18px;
-    margin-bottom: 18px;
-  
-    color: rgb(17, 16, 28);
-    font-size: 16px;
-    line-height: 20px;
-  }
-  
-  .formInput::placeholder {
-    color: rgb(17, 16, 28);
-    font-size: 16px;
-    line-height: 20px;
-  }
-  
-  .formInputError {
-    border: 1px solid red;
-  }
-  
-  .formBtn {
-    width: 438px;
-    border-radius: 30px;
-    border: none;
-    background-color: rgb(16, 57, 49);
-    padding-top: 19px;
-    padding-bottom: 19px;
-    margin-top: 22px;
-  
-    color: rgb(251, 251, 251);
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 20px;
-    cursor: pointer;
-  }
-  
-  .inputError {
-    color: red;
-    padding-bottom: 5px;
-    padding-left: 5px;
-  }
-  
-  .passInputWrap {
-    position: relative;
-  }
-  .togglePasswordBtn {
-    background-color: transparent;
-    border: none;
-    position: absolute;
-    top: 40%;
-    right: 17px;
-    transform: translateY(-50%);
-  } */
 .profileWrap {
   display: flex;
   gap: 14px;
+  
+  margin-bottom: 40px;
 }
 
 .cardImgWrap {
@@ -129,8 +75,6 @@
   font-size: 16px;
   line-height: 1.5;
   color: #8a8a89;
-
-  margin-bottom: 27px;
 }
 
 .addInfo p {

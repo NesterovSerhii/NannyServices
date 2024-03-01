@@ -36,8 +36,8 @@ const NanniesList = ({ initialLoad, openMeetingModal }) => {
   return (
     <div>
       <ul className={css.nanniesList}>
-        {nannies.map((nanny, index) => (
-          <NanniesCard key={index} nanny={nanny} openMeetingModal={openMeetingModal}/>
+         {nannies.map((nanny, index) => (
+        <NanniesCard key={index} nanny={nanny} openMeetingModal={openMeetingModal} />
         ))}
       </ul>
       {!allNanniesLoaded && (
@@ -47,7 +47,7 @@ const NanniesList = ({ initialLoad, openMeetingModal }) => {
       )}
       <ToastContainer />
     </div>
-  );
+  )
 };
 
 export default NanniesList;

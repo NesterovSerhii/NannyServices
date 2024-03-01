@@ -71,7 +71,16 @@
   border: none;
   border-radius: 30px;
   background-color: #103931;
+  transition: 0.3s;
+  cursor: pointer;
 }
+
+.headerLogOutBtn:hover, 
+.headerLogOutBtn:focus {
+background-color: #fbfbfb;
+color: #103931;
+}
+
 .btnsWrap {
   display: flex;
   align-items: center;

@@ -22,8 +22,11 @@ const NanniesCard = ({ nanny, openMeetingModal }) => {
   };
 
   const handleMakeAppointmentClick = () => {
-    openMeetingModal(nanny);
+    if (typeof openMeetingModal === 'function') {
+      openMeetingModal(nanny);
+    }
   };
+
 
   useEffect(() => {
       const today = new Date();
